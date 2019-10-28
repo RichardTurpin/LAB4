@@ -85,7 +85,7 @@
   </div>
 </div>
 <!-- Left-aligned media object -->
-  <h1 class="text-center" style="color:#ffffff ">Share your opinion</h1>
+ <h1 class="text-center" style="color:#ffffff ">Share your opinion</h1>
   {foreach item=post from=$posts}
   <div class="container-fluid">
     <div class="media" style=" background-color: #ffffff;">
