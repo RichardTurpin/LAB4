@@ -28,7 +28,7 @@ if($db) {
 
   $nrows  = mysql_num_rows($result);
    for($i=0; $i<$nrows; $i++) {
-     $tuple = mysql_fetch_array($result,MYSQL_ASSOC);
+     $tuple[$i] = mysql_fetch_array($result,MYSQL_ASSOC);
     
      // trabalha com o bloco FILMES do template
 $smarty->assign('posts',$tuple);
@@ -37,7 +37,7 @@ $smarty->assign('posts',$tuple);
    } // end for
 
   // Mostra a tabela
-  $smarty->display('index_template.tpl');
+  $smarty->display('templates/index_template.tpl');
 
   // fechar a ligação à base de dados
   mysql_close($db);
