@@ -1,7 +1,13 @@
 <?php
 
 include 'db.php';
+require('libs/Smarty.class.php');
+$smarty = new Smarty();
 
+$smarty->template_dir = 'templates';
+$smarty->compile_dir = 'templates_c';
+$smarty->cache_dir = 'cache';
+$smarty->config_dir = 'configs';
 
 // ligação à base de dados
 $db = dbconnect($hostname,$db_name,$db_user,$db_passwd);
