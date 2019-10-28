@@ -90,9 +90,11 @@
     <div class="media-left">
       <img src="richie.jpg" class="media-object" style="width:120px">
     </div>
+     {foreach item=post from=$posts}
     <div class="media-body">
       <h3 class="media-heading" style="color:#003300">Richard Turpin</h3>
       <p style="color:#003300">R3CONQUIS7A</p> <p><small>Created:07-10-2019 </small></p> <p><small>Updated:07-10-2019</small></p>    </div>
+      {/foreach}
 
   </div>
 
