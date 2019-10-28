@@ -84,7 +84,7 @@
     </a>
   </div>
 </div>
-  <!-- Left-aligned media object -->
+ <!-- Left-aligned media object -->
   <h1 class="text-center" style="color:#ffffff ">Share your opinion</h1>
   {foreach item=post from=$posts}
   <div class="media" style=" background-color: #ffffff; max-width: 50%">
@@ -93,10 +93,10 @@
     </div>
     <div class="media-body">
       <h3 class="media-heading" style="color:#003300">{$post.name}</h3>
-      <p style="color:#003300">{$post.content}</p> <p><small>Created:{$post.created_at} </small></p> <p><small>Updated:{$post.updated_at}</small></p>   
-       </div>
+      <p style="color:#003300">{$post.content}</p> <p><small>Created:{$post.created_at} </small></p> <p><small>Updated:{$post.updated_at}</small></p>    </div>
+   
   </div>
- {/foreach}
+  {/foreach}
   
 
 
