@@ -5,9 +5,9 @@ function showerror()
  die("Error " . mysql_errno() . " : " . mysql_error());
 }
 $hostname = "10.10.23.183";
-$db_name = "db_a12345";
-$db_user = "a12345";
-$db_passwd = "PASS";
+$db_name = "db_a61213";
+$db_user = "a61213";
+$db_passwd = "695bdd";
 // faz uma conexão a uma base de dados
 function dbconnect($hostname, $db_name,$db_user,$db_passwd)
 {
