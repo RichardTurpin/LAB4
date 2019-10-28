@@ -93,7 +93,7 @@
     </div>
     <div class="media-body">
       <h3 class="media-heading" style="color:#003300">{$post.name}</h3>
-      <p style="color:#003300">{$post.content}</p> <p><small>Createdd:{$post.created_at} </small></p> <p><small>Updated:{$post.updated_at}</small></p>    </div>
+      <p style="color:#003300">{$post.content}</p> <p><small>Created:{$post.created_at} </small></p> <p><small>Updated:{$post.updated_at}</small></p>    </div>
       {/foreach}
 
   </div>
