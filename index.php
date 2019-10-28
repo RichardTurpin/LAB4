@@ -16,11 +16,6 @@ if($db) {
   if(!($result = @ mysql_query($query,$db )))
    showerror();
 
-  // Cria um novo objecto template
-  $template = new HTML_Template_IT('.');
-
-  // Carrega o template Filmes2_TemplateIT.html
-  $template->loadTemplatefile('Filmes2_TemplateIT.html', true, true);
 
 
   // mostra o resultado da query utilizando o template
