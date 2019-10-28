@@ -37,7 +37,7 @@ $smarty->assign('posts',$tuple);
    } // end for
 
   // Mostra a tabela
-  $smarty->display('templates/index_template.tpl');
+  $smarty->display('templates/index_templates.tpl');
 
   // fechar a ligação à base de dados
   mysql_close($db);
