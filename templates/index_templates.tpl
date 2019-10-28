@@ -89,11 +89,11 @@
   {foreach item=post from=$posts}
   <div class="media" style=" background-color: #ffffff; max-width: 50%">
     <div class="media-left">
-      <img src="richie.jpg" class="media-object" style="width:120px">
+      <img src="img_avatar1.png" class="media-object" style="width:120px">
     </div>
     <div class="media-body">
-      <h3 class="media-heading" style="color:#003300">Richard Turpin</h3>
-      <p style="color:#003300">R3CONQUIS7A</p> <p><small>Created:07-10-2019 </small></p> <p><small>Updated:07-10-2019</small></p>    </div>
+      <h3 class="media-heading" style="color:#003300">{$post.name}</h3>
+      <p style="color:#003300">{$post.content}</p> <p><small>Created:{$post.created_at} </small></p> <p><small>Updated:{$post.updated_at}</small></p>    </div>
       {/foreach}
 
   </div>
